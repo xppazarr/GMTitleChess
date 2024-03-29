@@ -10,3 +10,7 @@ Chess GM userscript for chess.com
 ## Features:
 
 Adds GM Tag to your name LOCALLY, (No one can see it but you) FAKE IT TIL' YOU MAKE IT
+
+## To reach out
+
+https://www.chess.com/member/solarmt & discord : sola.r
