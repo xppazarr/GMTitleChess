@@ -1,5 +1,8 @@
 ## GM TAG
 
+![image](https://github.com/xppazarr/GMTitleChess/assets/79111364/791b0ae4-9b9e-4fba-b1a0-8c97498b1729)
+
+
 Chess GM userscript for chess.com
 
 ## Usage:
