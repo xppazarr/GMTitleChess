@@ -28,18 +28,6 @@
         }
     }
 
-    var profileCardUserBlock = document.querySelector('div.profile-card-user-block');
-
-    if (profileCardUserBlock) {
-        var gmTagProfile = document.createElement('a');
-        gmTagProfile.setAttribute('class', 'profile-card-chesstitle');
-        gmTagProfile.setAttribute('href', 'https://www.chess.com/members/titled-players');
-        gmTagProfile.setAttribute('v-tooltip', 'Grandmaster');
-        gmTagProfile.setAttribute('data-tooltip-target', '0');
-        gmTagProfile.textContent = 'GM';
-        profileCardUserBlock.insertBefore(gmTagProfile, profileCardUserBlock.firstChild);
-    }
-
     var homeUserAvatar = document.querySelector('.home-user-avatar');
 
     if (homeUserAvatar) {
@@ -51,5 +39,42 @@
         gmTagHome.textContent = 'GM';
         gmTagHome.style.fontSize = '15px'; // Adjust as needed
         homeUserAvatar.parentNode.insertBefore(gmTagHome, homeUserAvatar.nextSibling);
+    }
+
+    var editContainerProfileEdit = document.querySelector('.edit-container.profile-edit');
+
+    if (editContainerProfileEdit) {
+        var profileCardUserBlock = document.querySelector('div.profile-card-user-block');
+
+        if (profileCardUserBlock) {
+            var gmTagProfile = document.createElement('a');
+            gmTagProfile.setAttribute('class', 'profile-card-chesstitle');
+            gmTagProfile.setAttribute('href', 'https://www.chess.com/members/titled-players');
+            gmTagProfile.setAttribute('v-tooltip', 'Grandmaster');
+            gmTagProfile.setAttribute('data-tooltip-target', '0');
+            gmTagProfile.textContent = 'GM';
+            profileCardUserBlock.insertBefore(gmTagProfile, profileCardUserBlock.firstChild);
+        }
+
+        var v5SectionContentWide = document.querySelector('.v5-section-content-wide');
+
+        if (v5SectionContentWide) {
+            var titledPlayerDiv = document.createElement('div');
+            titledPlayerDiv.setAttribute('class', 'status-component status-titled');
+
+            titledPlayerDiv.innerHTML = `
+                <span class="icon-font-chess status-membership-icon chess-crown"></span>
+                <div class="status-label-group">
+                    <span class="status-label">Titled Player</span>
+                </div>
+                <div class="status-data-wrapper">
+                    <a href="https://www.chess.com/members/titled-players" class="status-data status-stream-url" rel="nofollow">
+                        Grandmaster
+                    </a>
+                </div>
+            `;
+
+            v5SectionContentWide.parentNode.insertBefore(titledPlayerDiv, v5SectionContentWide.nextSibling);
+        }
     }
 })();
