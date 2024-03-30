@@ -3,6 +3,8 @@
 ![image](https://github.com/xppazarr/GMTitleChess/assets/79111364/791b0ae4-9b9e-4fba-b1a0-8c97498b1729)
 ![image](https://github.com/xppazarr/GMTitleChess/assets/79111364/12aa4a7f-c040-4c75-8087-bd56ce753157)
 
+Dont ask why my head is tilted, it's chess.com fucking it up.
+
 
 
 Chess GM userscript for chess.com
