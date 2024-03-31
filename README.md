@@ -21,4 +21,4 @@ Adds GM Tag to your name LOCALLY, (No one can see it but you) FAKE IT TIL' YOU M
 
 ## To reach out
 
-https://www.chess.com/member/solarmt & discord : sola.r
+https://www.chess.com/member/solarmt & discord : sola.r & https://www.twitch.tv/solarbbx
