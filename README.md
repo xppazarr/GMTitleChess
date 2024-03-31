@@ -1,8 +1,12 @@
 ## GM TAG
 
-![image](https://github.com/xppazarr/GMTitleChess/assets/79111364/f1a8a6fb-7d10-4c4e-9ea4-ed104ffd69ad)
+![image](https://github.com/xppazarr/GMTitleChess/assets/79111364/1bdd1dbc-41ff-4331-9044-63b7220cf267)
+
 
 ![image](https://github.com/xppazarr/GMTitleChess/assets/79111364/12aa4a7f-c040-4c75-8087-bd56ce753157)
+
+![image](https://github.com/xppazarr/GMTitleChess/assets/79111364/0dbd9187-cb09-4d30-a3ce-21a98db68565)
+
 
 Chess GM userscript for chess.com
 
